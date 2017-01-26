@@ -6763,3 +6763,8 @@ button.close {
   width: 100%;
   height: 200px;
   cursor: pointer; }
+
+.container .row .thumbnail-img:hover {
+  opacity: .5;
+  transition: opacity 1s ease-in-out;
+  cursor: pointer; }
