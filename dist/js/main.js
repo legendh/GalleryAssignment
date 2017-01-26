@@ -18,7 +18,6 @@ $(document).ready(function(){
     $('.cstm-btn-remove').click(function(){
         var imglen = $('.img-gallery .col-md-4').length;
         $('.img-gallery .col-md-4:nth-child('+imglen+')').remove();
-        console.log(imglen);
     });
     
 });
